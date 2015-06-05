@@ -63,7 +63,7 @@ background-repeat: repeat-x;}
 .hero-unit h1{ margin-top:0px; line-height:1; font-size:50px }
 .hero-unit h2{ font-size:24.5px}
 .hero-unit address{ line-height:30px; margin-top:2px}
-.hero-unit abbr[title], .hero-unit abbr[data-original-title]{ width:20px; display:inline-block; text-align:center; background: url(../images/bg-perpendicular.png) repeat; border-bottom:none; line-height:24px}
+.hero-unit abbr[title], .hero-unit abbr[data-original-title]{ width:50px; display:inline-block; text-align:left; background: url(../images/bg-perpendicular.png) repeat; border-bottom:none; line-height:24px}
 .hero-unit .avatar{  background: url(../images/bg-perpendicular.png) repeat #fff; padding:10px;}
 .social { margin:0px; background-color:#ccc; position:absolute; bottom:0px;}
 .social li{ float:left; display:block; border-left:dashed 1px #b3b3b3;  background-color:#d6d6d4;}
@@ -82,12 +82,16 @@ transition: background 0.2s ease;
 .social li.linked a{ background-position: -160px 0}
 .social li.google a{ background-position: -214px 0}
 .social li.pinterest a{ background-position: -271px 0}
+.social li.xing a{ background-position: -324px 0}
+.social li.github a{ background-position: -374px 0}
 .social li.facebook a:hover{ background-position: 4px -50px; background-color:#3b5998}
 .social li.youtube a:hover{ background-position: -46px -50px; background-color:#ff3939}
 .social li.twitter a:hover{ background-position: -100px -50px; background-color:#32ccfe}
 .social li.linked a:hover{ background-position: -160px -50px; background-color:#0073b2}
 .social li.google a:hover{ background-position: -214px -50px; background-color:#ffffff}
 .social li.pinterest a:hover{ background-position: -271px -50px; background-color:#ae2c2a}
+.social li.xing a:hover{ background-position: -324px -50px; background-color:#396567}
+.social li.github a:hover{ background-position: -374px -50px; background-color:#4875b2}
 
 /* 4. Section */
 section > .row { margin-bottom:30px }
